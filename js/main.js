@@ -25,12 +25,13 @@ function highlightActor(actor) {
         if(actor == mySpan.dataset.actor) { //if white, turn yellow
             mySpan.style.backgroundColor='orange';
             if(mySpan.dataset.actor == "juliet") {
-                juliet.style.opacity = "1";
-                romeo.style.opacity = "0.2";
+                juliet.style.opacity = '1';
+                romeo.style.opacity = '0.2';
             } else {
-                romeo.style.opacity = "1";
-                juliet.style.opacity = "0.2";
+                juliet.style.opacity = '0.2';
+                romeo.style.opacity = '1';
             }
+
         } else { //else turn white
             mySpan.style.backgroundColor="white";
         }
