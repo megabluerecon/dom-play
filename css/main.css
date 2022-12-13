@@ -8,6 +8,9 @@ html {
     font-family: 'Ubuntu', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
+    background-image: url("../images/background-pic.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
 }
 
 body{
@@ -79,12 +82,12 @@ footer {
 /* DESKTOP */
 @media all and (min-width:1200px) {
     main.wrapper {
-        width: 80%;
+        width: 86%;
         margin: auto;
     }
     
     h1 {
-        width: 79%;
+        width: 85%;
         padding-left: 1%;
     }
     

@@ -1,40 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-     <title>Project Name</title>
+     <title>DOM Play</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/nav.css">
+  <style>
+    .hamlet{
+      /*background-color: yellow;*/
+    }
+    #play span{
+      /*background-color: green;*/
+    }
+
+  </style>
  </head>
  <body>
      <header>
-     <h1 class="page-header">Site Name</h1>
-        <nav class="topnav" id="myTopnav">
+     <h1 class="page-header">DOM Play</h1>
+        <!--<nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
             <a href="#" target="_blank">Link</a>
             <a href="#" target="_blank">Link</a>
             <a href="#" target="_blank">Link</a>
             <a href="#" target="_blank">Link</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-        </nav>
+        </nav>-->
      </header>
      
    <main class="wrapper">
-       <h2 class="subheader">Project Name</h2>
+       <h2 class="subheader">Act 2: Scene 2</h2>
        
-       <p>Clever content goes here</p>
-       <p>Clever content goes here</p>
-       <p>Clever content goes here</p>
-
-       <h3>Page Origin</h3>
-       <p>The HTML/CSS comes from Sara Newman's Web Fundamentals class as taught at Seattle Central. This page provides a basis for students to build a responsive portal page.</p>
-        
-
-    <p>Study how this page is built, with the <a href="https://www.youtube.com/watch?v=151NXMk0a2c" target="_blank">DOM Inspector</a> and use it as a foundation for your portal or other sites!</p>
-     <footer>
+       <div id="play">
+        <img id="romeo-img" src="images/romeo.png" alt="image of Romeo" style="float: right">
+        <img id="juliet-img" src="images/juliet.png" alt="image of Juliet" style="float: right">
+          <p><span data-actor="juliet">Juliet: <br>&emsp; What man art thou that, thus bescreened in night,
+          <br>&emsp; So stumblest on my counsel?
+          </span></p>
+          <p><span data-actor="romeo">Romeo: 
+            <br>&emsp; By a name I know not how to tell thee who I am.
+            <br>&emsp; My name, dear saint, is hateful to myself
+            <br>&emsp; Because it is an enemy to thee.
+            <br>&emsp; Had I it written, I would tear the word.
+          </span></p>
+          <p><span data-actor="juliet">Juliet:
+            <br>&emsp; My ears have yet not drunk a hundred words
+            <br>&emsp; Of thy tongue&lsquo;s uttering, yet I know the sound.
+            <br>&emsp; Had I it written, I would tear the word.
+          </span></p>
+          <p><span data-actor="romeo">Romeo: <br>&emsp;Neither, fair maid, if either thee dislike.</span></p>
+          <p><span data-actor="juliet">Juliet: 
+            <br>&emsp; How camest thou hither, tell me, and wherefore?
+            <br>&emsp; The orchard walls are high and hard to climb,
+            <br>&emsp; And the place death, considering who thou art,
+            <br>&emsp; If any of my kinsmen find thee here.
+          </span></p>
+          <p><span data-actor="romeo">Romeo: 
+            <br>&emsp; With love&lsquo;s light wings did I o&lsquo;erperch these walls,
+            <br>&emsp; For stony limits cannot hold love out,
+            <br>&emsp; And what love can do, that dares love attempt.
+            <br>&emsp; Therefore thy kinsmen are no stop to me.
+          </span></p>
+       </div>
+    <footer>
       <p><small>&copy; 2021-<span id="this-year"></span> by 
-          YOUR NAME, All Rights Reserved ~ 
+          DIEN NGUYEN, All Rights Reserved ~ 
           <a id="html-checker" href="#" target="_blank">Check HTML</a> ~ 
           <a id="css-checker" href="#" target="_blank">Check CSS</a></small>
      </p>
