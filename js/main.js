@@ -27,9 +27,12 @@ function highlightActor(actor) {
             if(mySpan.dataset.actor == "juliet") {
                 juliet.style.opacity = '1';
                 romeo.style.opacity = '0.2';
-            } else {
+            } else if(mySpan.dataset.actor == "romeo") {
                 juliet.style.opacity = '0.2';
                 romeo.style.opacity = '1';
+            } else {
+                juliet.style.opacity = '0.2';
+                romeo.style.opacity = '0.2';
             }
 
         } else { //else turn white
